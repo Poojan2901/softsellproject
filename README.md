@@ -1,12 +1,45 @@
-# React + Vite
+🧠 SoftSell – AI-Powered License Resale Landing Page
+SoftSell is a responsive one-page marketing website built for a fictional startup that helps users resell unused software licenses. This project is part of the Credex Web Development Assignment and highlights frontend development, AI integration, and clean UI/UX design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Single-Page Application with React and Vite
 
-Currently, two official plugins are available:
+🎨 Modern, responsive UI using Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💬 AI-powered chat widget 
 
-## Expanding the ESLint configuration
+🌙 Dark mode compatible
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔐 Environment variable support for API keys
+
+📦 Easily deployable on platforms like Netlify or Vercel
+
+🛠 Tech Stack
+Frontend	React + Vite
+Styling	Tailwind CSS
+AI Integration	Gemini API
+Environment	.env with Vite
+Hosting	Netlify
+
+📁 Project Structure
+softsell/
+├── public/
+│   └── index.html
+├── src/
+│   ├── api/
+│   │   └── chat.js            
+│   ├── assets/
+│   │   └── logo.png           # Branding/logo
+│   ├── components/
+│   │   ├── ChatWidget.jsx     # AI Chat Widget Component
+│   │   └── Hero.jsx           # Hero Section (example)
+│   ├── App.jsx                # Main App layout
+│   ├── main.jsx               # Entry point
+│   └── index.css              # Global styles
+├── .env                       # Contains your OpenAI API key
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
