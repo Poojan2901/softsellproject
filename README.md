@@ -20,26 +20,3 @@ Styling	Tailwind CSS
 AI Integration	Gemini API
 Environment	.env with Vite
 Hosting	Netlify
-
-📁 Project Structure
-softsell/
-├── public/
-│   └── index.html
-├── src/
-│   ├── api/
-│   │   └── chat.js            
-│   ├── assets/
-│   │   └── logo.png           # Branding/logo
-│   ├── components/
-│   │   ├── ChatWidget.jsx     # AI Chat Widget Component
-│   │   └── Hero.jsx           # Hero Section (example)
-│   ├── App.jsx                # Main App layout
-│   ├── main.jsx               # Entry point
-│   └── index.css              # Global styles
-├── .env                       # Contains your OpenAI API key
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
